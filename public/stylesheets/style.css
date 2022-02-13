@@ -1,3 +1,14 @@
+:root {
+  --primary: #fcfbda;
+  --secondary: black;
+  --tertiary: #788585;
+  --light-dark: #6f6866;
+  --dark: #38302e;
+  --border-radius: .3rem;
+  --border: 1rem;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -39,7 +50,15 @@ button:hover {
 .post-list {
   margin: 0;
   padding: 0;
+  /* border: var(--secondary) solid;
+  border-width: 1px;
+  border-color: var(--secondary); */
 }
+
+/* .eachPost {
+  border: var(--secondary) solid;
+  border-width: 2px;
+} */
 
 textarea, input {
   padding: .5%;
@@ -76,7 +95,7 @@ form label {
 
 header {
   background-color: black;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--primary);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,7 +104,7 @@ header {
 
 header h1 {
   padding: 1%;
-  background-color: olivedrab;
+  background-color: var(--primary);
   box-shadow: 5px 5px darkgrey;
   border-radius: 10px;
   font-size: 1.5em;
@@ -93,15 +112,17 @@ header h1 {
 
 nav {
   width: 75%;
-  display: inline;
+  display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 nav a {
-  color: olivedrab;
+  color: var(--primary);
 }
 
 main {
+  background-color: var(--primary);
   flex: 1;
   padding: 2% 4%;
 }
@@ -112,7 +133,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: olivedrab;
+  color: var(--primary);
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -133,8 +154,20 @@ main {
 }
 
 .post {
+  border: var(--secondary) solid;
+  border-width: 2px;
+  border-color: var(--secondary);
   margin-bottom: 2%;
   line-height: 150%;
+}
+
+.title {
+  padding-left: 1%;
+  font-size: larger;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .post .title span {
