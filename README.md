@@ -61,7 +61,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 
 ## Website
-* Heroku: https://damp-reef-46989.herokuapp.com/
+* Heroku: https://radiant-ocean-53137.herokuapp.com
 
 * Github Repository: https://github.com/RauchDavis13/Tech_Blog
 
