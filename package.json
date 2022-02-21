@@ -1,5 +1,5 @@
 {
-  "name": "hacker-news-clone",
+  "name": "tech_blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -26,5 +26,9 @@
   },
   "devDependencies": {
     "jest": "^27.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RauchDavis13/Tech_Blog"
   }
 }
