@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "jest",
-    "seeds": "node seeds/index.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "author": "",
   "license": "ISC",
